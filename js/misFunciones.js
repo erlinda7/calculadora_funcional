@@ -66,6 +66,7 @@ function division(){
          document.getElementById('txtResultado').value=resultado;
     }else{
         alert("Error : Division por cero");
+        
     }
 }
 

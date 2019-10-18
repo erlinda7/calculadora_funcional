@@ -65,7 +65,7 @@ function division(){
          resultado = parseInt(numero1) / parseInt(numero2);
          document.getElementById('txtResultado').value=resultado;
     }else{
-        document.getElementById('txtResultado').value=0;
+        alert("Error : Division por cero");
     }
 }
 

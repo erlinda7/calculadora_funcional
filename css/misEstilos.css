@@ -1,0 +1,17 @@
+.calculadora{
+    
+    background-color:rgb(151, 178, 235);
+    border: black solid 1px;
+}
+
+button{
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+}
+
+input{
+    height: 70px;
+    width: 290px;
+    font-size: 25px;
+}

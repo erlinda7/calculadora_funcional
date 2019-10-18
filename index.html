@@ -13,28 +13,28 @@
 				<td colspan="5"><input id="txtResultado" type="text" value=""></td>
 			</tr>
 			<tr>
-				<td><button id="btn7" onclick="mostrar(7)">7</button></td>
-				<td><button id="btn8" onclick="mostrar(8)">8</button></td>
-				<td><button id="btn9" onclick="mostrar(9)">9</button></td>
-				<td><button id="btnSuma"  onclick="obtenerOperador('suma')">+</button></td>
+				<td><button class="numero" onclick="mostrar(7)">7</button></td>
+				<td><button class="numero" onclick="mostrar(8)">8</button></td>
+				<td><button class="numero" onclick="mostrar(9)">9</button></td>
+				<td><button class="signo" onclick="obtenerOperador('suma')">+</button></td>
 			</tr>
 			<tr>
-				<td><button id="btn4" onclick=mostrar(4)>4</button></td>
-				<td><button id="btn5" onclick=mostrar(5)>5</button></td>
-				<td><button id="btn6" onclick=mostrar(6)>6</button></td>
-				<td><button id="btnResta" onclick="obtenerOperador('resta')">-</button></td>
+				<td><button class="numero" onclick=mostrar(4)>4</button></td>
+				<td><button class="numero" onclick=mostrar(5)>5</button></td>
+				<td><button class="numero" onclick=mostrar(6)>6</button></td>
+				<td><button class="signo" onclick="obtenerOperador('resta')">-</button></td>
 			</tr>
 			<tr>
-				<td><button id="btn1" onclick=mostrar(1)>1</button></td>
-				<td><button id="btn2" onclick=mostrar(2)>2</button></td>
-				<td><button id="btn3" onclick=mostrar(3)>3</button></td>
-				<td><button id="btnMultiplicacion" onclick="obtenerOperador('multiplicacion')">x</button></td>
+				<td><button class="numero" onclick=mostrar(1)>1</button></td>
+				<td><button class="numero" onclick=mostrar(2)>2</button></td>
+				<td><button class="numero" onclick=mostrar(3)>3</button></td>
+				<td><button class="signo" onclick="obtenerOperador('multiplicacion')">x</button></td>
 			</tr>
 			<tr>
-				<td><button id="btnCE" onclick="borrarPantalla()">CE</button></td>
-				<td><button id="btn0" onclick='mostrar(0)'>0</button></td>
-				<td><button id="btnIgual" onclick="calcular()">=</button></td>
-				<td><button id="btnDivision" onclick="obtenerOperador('division')">/</button></td>
+				<td><button class="signo" onclick="borrarPantalla()">CE</button></td>
+				<td><button class="numero"  onclick='mostrar(0)'>0</button></td>
+				<td><button class="signo" onclick="calcular()">=</button></td>
+				<td><button class="signo" onclick="obtenerOperador('division')">/</button></td>
 			</tr>
 		</table>
 	</div>

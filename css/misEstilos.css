@@ -1,6 +1,6 @@
 .calculadora{
     
-    background-color:rgb(151, 178, 235);
+    background-color:rgb(38, 133, 88);
     border: black solid 1px;
 }
 
@@ -14,4 +14,12 @@ input{
     height: 70px;
     width: 290px;
     font-size: 25px;
+}
+
+.signo{
+    background-color: rgb(52, 128, 199);
+}
+
+.numero{
+    background-color: rgb(129, 182, 231);
 }
